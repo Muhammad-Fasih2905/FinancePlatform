@@ -14,6 +14,7 @@ export const metadata = {
     },
 };
 
+import { Suspense } from "react";
 import CatalogComp from "../components/catalogComp/CatalogComp";
 import { getCourses, getTopics } from "@/lib/data";
 
