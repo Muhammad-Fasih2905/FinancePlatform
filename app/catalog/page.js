@@ -15,6 +15,7 @@ export const metadata = {
 };
 
 import CatalogComp from "../components/catalogComp/CatalogComp";
+import { getCourses, getTopics } from "@/lib/data";
 
 // Main Page Component (Server Component)
 export default async function CatalogPage({ searchParams }) {
